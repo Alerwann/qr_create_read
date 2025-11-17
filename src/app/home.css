@@ -1,7 +1,4 @@
-.legal-container {
-  display: grid;
-  grid-template-columns: 1fr, 1fr;
-}
+
 
 
 .saisie_area {
@@ -66,5 +63,10 @@ justify-items: center;}
   .p-border {
     padding: 0;
     border: none;
+  }
+
+  .saisie_button_container{
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }

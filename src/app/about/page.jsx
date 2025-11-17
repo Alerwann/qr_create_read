@@ -11,6 +11,7 @@ export default function About() {
       <div className="contenaire">
         <h2>Pourquoi ?</h2>
         <p>Ce site est un site d'entrainement au dévelloppement NextJs.</p>
+        <p>J'ai pris cette idée de projet sur reddit.</p>
         <p>
           Je me suis basé principalement sur mes connaissances, des recherches
           dans la doc et en dernier recours de Claude.ai .
