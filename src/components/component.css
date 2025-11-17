@@ -1,0 +1,71 @@
+
+.mon-entete {
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 255, 255, 0.3);
+}
+
+.contenaire-entete {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 50px;
+  align-items: center;
+  justify-items: center;
+}
+
+.liens-entete {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.mon-footer {
+  box-shadow: 0 -4px 15px rgba(0, 255, 255, 0.3);
+
+  padding: 15px;
+}
+
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 768px) {
+  .contenaire-entete {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+  }
+}
+.container-titre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.titre-header {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.sous-titre-header {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.liens-entete a:hover {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.bouton-contact {
+  background: linear-gradient(135deg, #006b7d, #00ffff);
+  transition: all 0.3s;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.bouton-contact:hover {
+  box-shadow: 0 0 20px #00ffff;
+  transform: scale(1.05);
+}
